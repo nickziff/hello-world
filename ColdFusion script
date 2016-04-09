@@ -1,0 +1,7 @@
+<cfscript>
+	myQuestion = "What is your full name?";
+</cfscript>
+<cfoutput>
+	<strong>#myQuestion#</strong><br>
+	<strong>Nicholas Ziff</strong>
+</cfoutput>
