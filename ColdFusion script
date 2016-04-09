@@ -1,7 +1,16 @@
 <cfscript>
 	myQuestion = "What is your full name?";
+	myAge = 16;
+	halfAge = myAge/2;
+	roundAge = Round(halfAge);
 </cfscript>
 <cfoutput>
 	<strong>#myQuestion#</strong><br>
 	<strong>Nicholas Ziff</strong>
+	<strong>Age</strong>
+	#myAge#
+	<strong>Half of Age = </strong>
+	#halfAge#
+	<strong>Rounded Age = </strong>
+	#roundAge#
 </cfoutput>
